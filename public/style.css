@@ -1,0 +1,22 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: green;
+}
+
+h2 {
+    color: green;
+}
+
+/* centers images to the middle of the site */
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+    font-family: Gabriola, serif;
+    font-size: 30px;
+}
