@@ -26,20 +26,27 @@ p {
     color: lightgreen;
 }
 
+a {
+    text-align: justify;
+    font-family: Gabriola, serif;
+    font-size: 30px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*
+    start of falling stars background effects
+ */
 body {
     min-height: 100vh;
     background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
     overflow-x: hidden;
 }
-/*
-    start of falling stars background effects
- */
+
 .stars {
     width: 1px;
     height: 1px;
