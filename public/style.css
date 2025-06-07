@@ -9,6 +9,19 @@ h2 {
     color: green;
 }
 
+.loki-container {
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+}
+
+.loki-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
 li {
     color: greenyellow;
 }
@@ -66,6 +79,7 @@ body {
     80vw 92vh 1px white, 85vw 82vh 2px white, 90vw 88vh 1px white,
     95vw 75vh 2px white;
     animation: twinkle 8s infinite linear;
+    z-index: 0;
 }
 
 .shooting-star {
@@ -74,6 +88,7 @@ body {
     height: 2px;
     background: linear-gradient(90deg, white, transparent);
     animation: shoot 3s infinite ease-in;
+    z-index: 0;
 }
 
 .shooting-star:nth-child(1) {
