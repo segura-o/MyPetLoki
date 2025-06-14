@@ -13,6 +13,10 @@ h3 {
     color: yellow;
 }
 
+.fish-button {
+    background-color: lightblue;
+}
+
 .loki-container {
     position: relative;
     z-index: 10;
