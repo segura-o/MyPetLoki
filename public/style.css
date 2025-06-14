@@ -15,6 +15,8 @@ h3 {
 
 .fish-button {
     background-color: lightblue;
+    border: 2px solid blue;
+    font-size: 1.2rem;
 }
 
 .loki-container {

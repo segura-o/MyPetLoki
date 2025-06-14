@@ -1,3 +1,35 @@
+button {
+    position: relative;
+    margin: 1rem 0 2rem 1rem; /* adds space from top and left */
+    background-color: lightgreen;
+    border: 2px solid green;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start; /* left-align */
+    padding-left: 0; /* adjust this to center-ish left */
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem auto;
+    width: 100%;
+    color: darkblue;
+    text-shadow: 1px 1px 5px black;
+}
+
+p {
+    text-align: justify;
+    font-family: Gabriola, serif;
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
+}
+
 /*
     start of water drop background effects
  */
